@@ -5,4 +5,7 @@ import App from './App'
 
 
 
-RecatDOM.render(<App />,document.getElementById('root'));
+
+
+
+RecatDOM.render(<App />,document.getElementById);
