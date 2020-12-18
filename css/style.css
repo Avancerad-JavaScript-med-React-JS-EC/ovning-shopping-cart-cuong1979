@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: darkblue;
+}
+
+#root{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.nav{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+img{
+    width: 3%;
+    background-color: white;
+}
+
+.cart-wrapper{
+    display: flex;
+}
+
+.cart{
+    color: brown;
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+.counter{
+    padding: 0px 4px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.produkt-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 25px;
+    grid-gap: 10px 20px;
+}
+.bokWrapper{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px 10px 10px;
+    border-radius: 2px;
+}
+
+.bokWrapper-h4{
+    color: darkblue;
+    padding-bottom: 5px;
+}
+
+.bokWrapper-p1{
+    padding-bottom: 15px;
+    font-size: 12px;
+}
+
+.bokWrapper-p2{
+    padding-bottom: 15px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.btn{
+    background-color: turquoise;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+}
