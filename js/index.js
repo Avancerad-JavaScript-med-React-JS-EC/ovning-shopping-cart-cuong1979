@@ -8,4 +8,4 @@ import App from './App'
 
 
 
-RecatDOM.render(<App />,document.getElementById);
+RecatDOM.render(<App />,document.getElementById('root'));
