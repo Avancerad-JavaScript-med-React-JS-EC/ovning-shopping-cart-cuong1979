@@ -2,10 +2,13 @@ import React from 'react'
 
 function Cart (){
     return (
-        <div>
-             <h3>Cart</h3>
-             <span>0</span>
+        
+        <div className="cart-wrapper">
+            <h3 className="cart">Cart</h3>
+            <span className="counter">0</span>
         </div>
+
+       
        
     )
     

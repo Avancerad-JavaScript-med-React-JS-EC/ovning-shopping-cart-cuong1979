@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-color: darkblue;
+    background-color: rgb(7, 7, 126);
 }
 
 #root{
@@ -51,7 +51,9 @@ img{
     padding-top: 25px;
     grid-gap: 10px 20px;
 }
-.bokWrapper{
+.bokTitle{
+    height: 400px;
+    width: 90%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -60,25 +62,28 @@ img{
     border-radius: 2px;
 }
 
-.bokWrapper-h4{
+.bokWrapper-h3{
     color: darkblue;
     padding-bottom: 5px;
+    text-align: center;
+    font-size: 25px;
 }
 
 .bokWrapper-p1{
     padding-bottom: 15px;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .bokWrapper-p2{
-    padding-bottom: 15px;
+    padding-bottom: 100px;
     padding-left: 5px;
-    font-size: 12px;
+    font-size: 18px;
+    text-align: center;
 }
 .btn{
     background-color: turquoise;
     color: white;
-    padding: 10px;
+    padding: 20px;
     border-radius: 3px;
     border: none;
 }

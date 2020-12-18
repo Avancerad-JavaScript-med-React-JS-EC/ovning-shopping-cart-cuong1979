@@ -6,7 +6,7 @@ import Cart from './Cart'
 function Header (){
 
     return(
-        <div>
+        <div className="nav">
            <img src={imgUrl}></img>
             <Cart />
         </div> 
